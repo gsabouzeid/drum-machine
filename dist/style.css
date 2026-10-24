@@ -1,0 +1,39 @@
+body {
+  background-color: lightGray;
+}
+
+#drum-machine {
+  background-color: gray;
+  border: solid black 1px;
+  border-radius: 10px;
+  width: 700px;
+  margin: auto;
+  display: flex;
+}
+
+#drum-pads {
+  width: 500px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.drum-pad {
+  background-Color: lightGray;
+  border: solid black 1px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 40px;
+  box-shadow: black 3px 3px 5px;
+}
+
+.button-click {
+  background-color: red;
+}
+
+#display {
+  text-align: center;
+  flex-grow: 1;
+  margin: auto;
+}
